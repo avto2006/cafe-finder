@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Cafe Curator</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+</head>
+<body>
+  <h1>☕️ Cafe Curator</h1>
+  <p class="small">Find nearby cafes — swipe right to save.</p>
+
+  <div class="controls">
+    <button id="findBtn">Find Cafes Near Me</button>
+    <button id="showBtn">Show Saved Cafes</button>
+  </div>
+
+  <div class="cards" id="cards"></div>
+  <p class="notice" id="notice" style="display:none;"></p>
+
+  <script src="main.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&libraries=places&callback=initApp" async defer></script>
+</body>
+</html>
