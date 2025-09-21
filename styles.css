@@ -1,8 +1,13 @@
 body {
-background-color: rgb(193, 236, 163);
+background:url('assets/img/j.jpg');
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 font-family: "Savate", sans-serif;
 text-align: center;
 padding: 1rem;
+color: red;
 }
 
 button {
@@ -45,9 +50,18 @@ border: none;
     object-fit: cover;
 }
 
+main {
+    justify-content: center;
+    margin-top: 25vh;
+
+}
+
+
+
 button:hover {
     background: #555;
 }
+
 
 @media screen  and (width < 916px) {
      .controls  {
