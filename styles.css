@@ -48,3 +48,10 @@ border: none;
 button:hover {
     background: #555;
 }
+
+@media screen  and (width < 916px) {
+     .controls  {
+        display: flex;
+        gap: 5px;
+     }
+}
